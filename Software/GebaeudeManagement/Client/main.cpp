@@ -14,6 +14,7 @@ int main(int argc, char* argv[])
     do {
         std::cout << "Gebauedeleitsystem FHW 3000\n";
         cout << "Was wollen Sie tun: " << endl;
+        cout << "Test123" << endl;
         cout << "----------------------------------------------------" << endl;
         cout << "Aktuelle Raumtemperatur ueberpruefen \t(t)" << endl;
         cout << "Aussentueren oeffnen / schliessen \t(a)" << endl;
