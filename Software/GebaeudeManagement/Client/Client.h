@@ -1,6 +1,6 @@
 #pragma once
-
-class Client
+#include "BasicClient.h"
+class Client : public BasicClient
 {
 public:
 	Client(char server[], char port[]);
