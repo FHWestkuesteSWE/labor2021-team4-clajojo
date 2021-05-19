@@ -9,7 +9,7 @@ Server::Server()
 }
 
 void Server::start(char port[]) {
-
+	BasicServer::start(port);
 }
 
 void Server::processRequest(char req[], char ans[]) {

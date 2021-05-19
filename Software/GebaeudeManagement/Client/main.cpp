@@ -25,6 +25,7 @@ int main(int argc, char* argv[])
         cin >> wahl;
         switch (wahl) {
         case 't': // req zusammenbauen
+            strncpy_s(req, "get Temp ", 10);
             c.sendRequest(req, ans);
             cout << ans;
             break;
