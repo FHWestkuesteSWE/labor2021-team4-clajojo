@@ -151,6 +151,7 @@
   <ItemGroup>
     <ClCompile Include="BasicServer.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Sensor.cpp" />
     <ClCompile Include="Server.cpp" />
   </ItemGroup>
   <ItemGroup>
