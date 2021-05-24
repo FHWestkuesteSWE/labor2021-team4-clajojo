@@ -25,9 +25,22 @@ int main(int argc, char* argv[])
         cin >> wahl;
         switch (wahl) {
         case 't': // req zusammenbauen
-            strncpy_s(req, "get Temp ", 10);
+            cout << "Waehlen Sie innen (i) oder aussen (a):" << endl;
+            cin >> wahl;
+            cout << endl;
+            if (wahl == 'i') {
+                strncpy_s(req, "i", 2);
+            }
+            else if (wahl == 'a') {
+                strncpy_s(req, "a", 2);
+            }
+            else {
+                break;
+            }
+            cout << "req[0] ist " << req[0] << endl;
             c.sendRequest(req, ans);
             cout << ans;
+            cout << endl;
             break;
         default:;
 

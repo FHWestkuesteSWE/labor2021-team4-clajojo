@@ -9,10 +9,13 @@ class Sensor
 		~Sensor();
 
 		float getSensorwert();
+		void setSensorNr(int sensorNr);
+		void setEinheit(string einehit);
 
-	private:
+
+	protected:
 		float sensorwert;
-		const string einheit;
+		string einheit;
 		int SensorNr;
 
 };
