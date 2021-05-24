@@ -1,5 +1,14 @@
 #include "Sensor.h"
 
-float getTemp(int id) {
-	return 0;
+Sensor::Sensor()
+{
+}
+
+Sensor::~Sensor()
+{
+}
+
+float Sensor::getSensorwert()
+{
+	return sensorwert;
 }

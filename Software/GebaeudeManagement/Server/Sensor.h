@@ -1,11 +1,18 @@
-#pragma once
+#include <string.h>
+#include <string>
+using namespace std;
+
 class Sensor
 {
-public:
-	float getTemp(int id);
+	public:
+		Sensor();
+		~Sensor();
 
-protected:
-	const int id;
-	float temp;
+		float getSensorwert();
+
+	private:
+		float sensorwert;
+		const string einheit;
+		int SensorNr;
+
 };
-
