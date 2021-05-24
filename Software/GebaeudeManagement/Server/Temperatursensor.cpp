@@ -2,6 +2,7 @@
 
 Temperatursensor::Temperatursensor()
 {
+	
 }
 
 Temperatursensor::~Temperatursensor()
