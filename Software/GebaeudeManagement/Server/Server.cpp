@@ -2,7 +2,7 @@
 #include "Server.h"
 #include <string.h>
 #include <algorithm>
-#include "Temperatursensor.h"
+
 
 Server::Server()
 {
@@ -19,10 +19,10 @@ void Server::processRequest(char req[], char ans[]) {
 	switch (req[0])
 	{
 	case 'a':
-		n = innen.getSensorwert();
+		n = 1;
 		break;
 	case 'i':
-		n = auﬂen.getSensorwert();
+		n = 2;
 		break;
 	}
 	sprintf(ans, "%f", n);
