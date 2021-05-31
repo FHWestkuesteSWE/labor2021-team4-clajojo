@@ -6,7 +6,8 @@ class Temperatursensor : public Sensor
 		Temperatursensor();
 		Temperatursensor(int sensorNr, string einheit);
 		~Temperatursensor();
-
-	private:
 		void setTemperatur();
+
+	//private:
+		
 };
