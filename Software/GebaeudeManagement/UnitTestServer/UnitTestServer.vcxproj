@@ -99,8 +99,8 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <AdditionalLibraryDirectories>C:\Users\User\Desktop\Master Automatisierungstechnik\04 - Software\01-Praktikum\Labor\Software\GebaeudeManagement\Server\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>Temperatursensor.obj;Sensor.obj;Thermostat.obj;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Clarissa\source\repos\FHWestkuesteSWE\labor2021-team4-clajojo\Software\GebaeudeManagement\Server\x64\Debug;C:\Users\Clarissa\source\repos\FHWestkuesteSWE\labor2021-team4-clajojo\Software\GebaeudeManagement\Server;C:\Users\Clarissa\source\repos\FHWestkuesteSWE\labor2021-team4-clajojo\Software\GebaeudeManagement\x64\Debug;$(VCInstallDir)UnitTest\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Thermostat.obj;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
