@@ -150,6 +150,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BasicServer.cpp" />
+    <ClCompile Include="Raumverzeichnis.cpp" />
     <ClCompile Include="Thermostat.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Sensor.cpp" />
@@ -158,10 +159,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BasicServer.h" />
+    <ClInclude Include="Raumverzeichnis.h" />
     <ClInclude Include="Sensor.h" />
     <ClInclude Include="Thermostat.h" />
     <ClInclude Include="Server.h" />
     <ClInclude Include="Temperatursensor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="raeume.dat" />
+    <None Include="TemperaturSensoren.dat" />
+    <None Include="Thermostate.dat" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

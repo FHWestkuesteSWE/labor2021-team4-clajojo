@@ -8,5 +8,5 @@ class Thermostat
 		void setSolltemperatur(float Wert);
 
 	private:
-		float solltemperatur;
+		float solltemperatur = 0;
 };
