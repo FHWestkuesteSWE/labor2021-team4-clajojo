@@ -9,7 +9,7 @@ Temperatursensor::Temperatursensor()
 //Konstruktor 2
 Temperatursensor::Temperatursensor(int sensorNr, string einheit)
 {
-	Temperatursensor::SensorNr = sensorNr;
+	Temperatursensor::sensorNr = sensorNr;
 	Temperatursensor::einheit = einheit;
 }
 
@@ -20,10 +20,11 @@ Temperatursensor::~Temperatursensor()
 
 void Temperatursensor::setTemperatur()
 {
-	if (SensorNr == 0) {
+	sensorNr = 0;
+	if (sensorNr == 0) {
 		sensorwert = 25;
 	}
-	else if (SensorNr == 1)
+	else if (sensorNr == 1)
 	{
 		sensorwert = 15;
 	}

@@ -12,6 +12,10 @@ Sensor::~Sensor()
 {
 }
 
+void Sensor::setSensorNr(int sensorNr) {
+	Sensor::sensorNr = sensorNr;
+}
+
 float Sensor::getSensorwert()
 {
 	return sensorwert;

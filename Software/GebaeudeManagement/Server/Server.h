@@ -1,5 +1,6 @@
 #pragma once
 #include "BasicServer.h"
+#include "Temperatursensor.h"
 
 class Server : public BasicServer
 {
@@ -9,6 +10,7 @@ public:
 	~Server();
 
 protected:
+	Temperatursensor t;
 	virtual void processRequest(char request[], char answer[]);
 };
 
