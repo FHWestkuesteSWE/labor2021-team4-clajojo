@@ -15,11 +15,13 @@ class Sensor
 		float getSensorwert();
 		void setSensorNr(int sensorNr);
 		void setEinheit(string einehit);
+		void setSensorName(string name);
 
 
 	protected:
 		float sensorwert;
 		string einheit;
 		int SensorNr;
+		string SensorName;
 
 };
