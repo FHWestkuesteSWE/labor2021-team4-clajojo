@@ -17,14 +17,15 @@ void Server::start(char port[]) {
 
 void Server::processRequest(char req[], char ans[]) {
 	//strncpy(ans, req, std::min<int>(1024, strlen(ans) + 1));
+	t.setTemperatur();
 	float n = 0.5;
 	switch (req[0])
 	{
 	case 'a':
-		n = 1;
+		n = t.getSensorwert();
 		break;
 	case 'i':
-		n = 2;
+		n = t.getSensorwert();
 		break;
 	}
 	sprintf(ans, "%f", n);
