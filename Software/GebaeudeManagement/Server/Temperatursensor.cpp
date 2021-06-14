@@ -7,10 +7,11 @@ Temperatursensor::Temperatursensor()
 }
 
 //Konstruktor 2
-Temperatursensor::Temperatursensor(int sensorNr, string einheit)
+Temperatursensor::Temperatursensor(int sensorNr, string name, float StartTemp)
 {
 	Temperatursensor::SensorNr = sensorNr;
-	Temperatursensor::einheit = einheit;
+	Temperatursensor::name = name;
+	Temperatursensor::sensorwert = StartTemp;
 }
 
 //Destruktor
@@ -18,16 +19,9 @@ Temperatursensor::~Temperatursensor()
 {
 }
 
-void Temperatursensor::setTemperatur()
+void Temperatursensor::setTemperatur(float temp)
 {
-	if (SensorNr == 0) {
-		sensorwert = 25;
-	}
-	else if (SensorNr == 1)
-	{
-		sensorwert = 15;
-	}
-	else {
-		sensorwert = 888;
-	}
+	
 }
+
+

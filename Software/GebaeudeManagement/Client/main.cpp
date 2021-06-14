@@ -25,6 +25,7 @@ int main(int argc, char* argv[])
         cin >> wahl;
         switch (wahl) {
         case 't': // req zusammenbauen
+            /*
             cout << "Waehlen Sie innen (i) oder aussen (a):" << endl;
             cin >> wahl;
             cout << endl;
@@ -37,11 +38,13 @@ int main(int argc, char* argv[])
             else {
                 break;
             }
+            
             cout << "req[0] ist " << req[0] << endl;
             c.sendRequest(req, ans);
             cout << ans;
             cout << endl;
             break;
+            */
         default:;
 
         }

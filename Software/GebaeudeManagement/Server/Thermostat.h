@@ -1,7 +1,12 @@
+#include <string.h>
+#include <string>
+using namespace std;
+
 class Thermostat
 {
 	public:
 		Thermostat();
+		Thermostat(int nr, string name, float temp);
 		~Thermostat();
 
 		float getsolltemperatur();
@@ -9,4 +14,6 @@ class Thermostat
 
 	private:
 		float solltemperatur = 0;
+		string name;
+		int Nr = 0;
 };

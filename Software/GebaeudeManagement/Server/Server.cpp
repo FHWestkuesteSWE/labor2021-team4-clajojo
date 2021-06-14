@@ -2,10 +2,13 @@
 #include "Server.h"
 #include <string.h>
 #include <algorithm>
+#include "Filereader.h"
 
 Server::Server()
 {
-
+	Filereader reader;
+	reader.ErzeugeTemperatursensoren();
+	reader.ErzeugeThermostate();
 }
 
 void Server::start(char port[]) {

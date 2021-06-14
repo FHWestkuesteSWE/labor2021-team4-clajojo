@@ -16,6 +16,7 @@ class Sensor
 	protected:
 		float sensorwert;
 		string einheit;
+		string name;
 		int SensorNr;
 
 };

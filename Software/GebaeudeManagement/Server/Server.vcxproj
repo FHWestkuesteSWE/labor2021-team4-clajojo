@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -150,20 +150,26 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BasicServer.cpp" />
+    <ClCompile Include="Filereader.cpp" />
     <ClCompile Include="Raumverzeichnis.cpp" />
+    <ClCompile Include="TemperaturSensorVerzeichnis.cpp" />
     <ClCompile Include="Thermostat.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Sensor.cpp" />
     <ClCompile Include="Server.cpp" />
     <ClCompile Include="Temperatursensor.cpp" />
+    <ClCompile Include="ThermostatVerzeichnis.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BasicServer.h" />
+    <ClInclude Include="Filereader.h" />
     <ClInclude Include="Raumverzeichnis.h" />
     <ClInclude Include="Sensor.h" />
+    <ClInclude Include="TemperaturSensorVerzeichnis.h" />
     <ClInclude Include="Thermostat.h" />
     <ClInclude Include="Server.h" />
     <ClInclude Include="Temperatursensor.h" />
+    <ClInclude Include="ThermostatVerzeichnis.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="raeume.dat" />
